@@ -124,3 +124,11 @@ Fase 2 — Desarrollo (S5-S15):
 Fase 3 — Cierre (S16-S18)
 
 ### **Arquitectura de la solución (descripción o diagrama)** 
+
+Code-Trekking utiliza una arquitectura modular separando la presentación, lógica de negocio, acceso a datos y servicios externos.
+
+La aplicación está desarrollada utilizando Angular como framework principal, Ionic para la interfaz móvil, Firebase para autenticación y persistencia de datos y Capacitor para acceder a funcionalidades nativas del dispositivo.
+
+┌──────────────────────────────────────────────┐ │ CODE-TREKKING │ │ Aplicación móvil │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ CAPA DE PRESENTACIÓN │ │ │ │ Angular + Ionic │ │ │ │ Login | Register | Home | Perfil │ │ Eventos | Foro | Mapa | Dashboard │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ LÓGICA DE NEGOCIO │ │ │ │ Services │ │ ├── auth.service.ts │ │ ├── evento.service.ts │ │ ├── security.service.ts │ │ ├── tracking.service.ts │ │ ├── foto.service.ts │ │ ├── sos.service.ts │ │ ├── session.service.ts │ │ ├── lugar.service.ts │ │ ├── consejo.service.ts │ │ └── weather-global.service.ts │ │ │ │ Guards + Interceptors │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ CAPA DE DATOS │ │ │ │ TypeScript Models │ │ │ │ Firebase Authentication │ │ Cloud Firestore │ │ Local Storage │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ SERVICIOS EXTERNOS / CLOUD │ │ │ │ Firebase │ │ OpenRouteService │ │ OpenWeatherMap │ │ OpenStreetMap │ │ OpenTopoMap │ │ Esri │ │ Thunderforest │ │ Wikiloc │ └──────────────────────┬───────────────────────┘ │ ▼ ┌──────────────────────────────────────────────┐ │ CAPACITOR / HARDWARE │ │ │ │ GPS │ │ Cámara │ │ Compartir │ │ Portapapeles │ │ Background Geolocation │ └──────────────────────────────────────────────┘
+
+
