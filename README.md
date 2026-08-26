@@ -42,7 +42,7 @@ ProyectoAPT_Code-Trekking
   
   Code-Trekking busca centralizar estas funcionalidades en una sola aplicación móvil, proporcionando una experiencia colaborativa y orientada a la seguridad.
 
-*Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):*
+### **Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):**
 
 - Angular — Framework principal para el desarrollo de la aplicación.
 - Ionic Framework — Componentes de interfaz y desarrollo de la aplicación móvil.
@@ -53,7 +53,7 @@ ProyectoAPT_Code-Trekking
 - Cloud Firestore — Base de datos NoSQL en la nube.
 - Firebase Security Rules — Control de acceso y seguridad de los datos.
 
-*Instrucciones para ejecutar el proyecto localmente:* 
+### **Instrucciones para ejecutar el proyecto localmente:** 
 
 Antes de ejecutar el proyecto es necesario contar con:
 
@@ -68,14 +68,14 @@ Antes de ejecutar el proyecto es necesario contar con:
 
 Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
 
-*Integrantes del equipo con sus roles* 
+### **Integrantes del equipo con sus roles** 
 
 - Ismael Horta - Rol: 
 - Danilo González - Rol:
   
 Ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
 
-*Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.)* 
+### **Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.)** 
 
 El desarrollo de Code-Trekking utiliza la metodología ágil Scrum.
 
@@ -87,4 +87,4 @@ Fase 1 — Definición (S1-S4):
 Fase 2 — Desarrollo (S5-S15):
 Fase 3 — Cierre (S16-S18)
 
-*Arquitectura de la solución (descripción o diagrama)* 
+### **Arquitectura de la solución (descripción o diagrama)** 
