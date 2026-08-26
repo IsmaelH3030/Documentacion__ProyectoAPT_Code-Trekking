@@ -61,18 +61,54 @@ Antes de ejecutar el proyecto es necesario contar con:
 - npm instalado.
 - Angular CLI.
 - Ionic CLI.
-- Git.
-- Android Studio, si se desea ejecutar la aplicación como aplicación Android.
+- GitHub.
+- Actions de Github, si se desea ejecutar la aplicación como aplicación Android (APK).
 - Una cuenta/proyecto de Firebase configurado.
 - Las credenciales correspondientes a los servicios externos utilizados por la aplicación.
 
 Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
 
+1. Clonar el repositorio
+- git clone https://github.com/DaniloGCh/Trekking-Link.git
+
+Ingresar al directorio del proyecto:
+
+- cd Trekking-Link
+
+2. Instalar las dependencias
+
+Ejecutar:
+
+- npm install
+
+3. Configurar las variables de entorno (modifcar esta parte)
+
+Antes de ejecutar la aplicación se deben configurar las credenciales necesarias para los servicios externos.
+
+4. Ejecutar la aplicación en el navegador
+
+Para iniciar el servidor de desarrollo:
+
+- ionic serve
+
+También puede utilizarse:
+
+- ng serve
+
+Luego acceder desde el navegador a:
+
+- http://localhost:8100
+
+Generar APK para Android:
+
+- La aplicación Android se genera automáticamente mediante **GitHub Actions**, por lo que no es necesario abrir el proyecto en Android Studio para generar la APK.
+
+
 ### **Integrantes del equipo con sus roles** 
 
-- Ismael Horta - Rol: 
-- Danilo González - Rol:
-  
+- Ismael Horta - Rol: (agregar roles)
+- Danilo González - Rol: (agregar roles)
+
 Ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
 
 ### **Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.)** 
