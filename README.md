@@ -146,5 +146,60 @@ Arquitectura general:
 - CAPACITOR / HARDWARE:
     GPS
     Background Geolocation
+
+  ### Arquitectura general
+
+```mermaid
+flowchart TD
+
+    A["📱 CODE-TREKKING<br/>Aplicación móvil"]
+
+    B["🖥️ CAPA DE PRESENTACIÓN<br/><br/>
+    Angular + Ionic<br/>
+    Login | Register | Home | Perfil<br/>
+    Eventos | Foro | Mapa | Dashboard"]
+
+    C["⚙️ LÓGICA DE NEGOCIO<br/><br/>
+    Services<br/>
+    auth.service.ts<br/>
+    evento.service.ts<br/>
+    security.service.ts<br/>
+    tracking.service.ts<br/>
+    foto.service.ts<br/>
+    sos.service.ts<br/>
+    session.service.ts<br/>
+    lugar.service.ts<br/>
+    consejo.service.ts<br/>
+    weather-global.service.ts<br/><br/>
+    Guards + Interceptors"]
+
+    D["💾 CAPA DE DATOS<br/><br/>
+    TypeScript Models<br/>
+    Firebase Authentication<br/>
+    Cloud Firestore<br/>
+    Local Storage"]
+
+    E["☁️ SERVICIOS EXTERNOS / CLOUD<br/><br/>
+    Firebase<br/>
+    OpenRouteService<br/>
+    OpenWeatherMap<br/>
+    OpenStreetMap<br/>
+    OpenTopoMap<br/>
+    Esri<br/>
+    Thunderforest<br/>
+    Wikiloc"]
+
+    F["📱 CAPACITOR / HARDWARE<br/><br/>
+    GPS<br/>
+    Cámara<br/>
+    Compartir<br/>
+    Portapapeles<br/>
+    Background Geolocation"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
     
   
