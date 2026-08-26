@@ -52,7 +52,21 @@ Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):
 - Firebase Security Rules — Control de acceso y seguridad de los datos.
 
   
-- Instrucciones para ejecutar el proyecto localmente 
+Instrucciones para ejecutar el proyecto localmente: 
+
+Antes de ejecutar el proyecto es necesario contar con:
+
+- Node.js instalado.
+- npm instalado.
+- Angular CLI.
+- Ionic CLI.
+- Git.
+- Android Studio, si se desea ejecutar la aplicación como aplicación Android.
+- Una cuenta/proyecto de Firebase configurado.
+- Las credenciales correspondientes a los servicios externos utilizados por la aplicación.
+
+Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
+
 - Integrantes del equipo con sus roles 
 - Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.) 
 - Arquitectura de la solución (descripción o diagrama) 
