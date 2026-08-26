@@ -7,13 +7,14 @@ Nombre del proyecto: Code-Trekking — Aplicación móvil de trekking colaborati
 Descripción: qué hace, a quién va dirigido, qué problema resuelve
 
 Que hace: 
+  
   Code-Trekking es una aplicación móvil desarrollada para personas interesadas en realizar actividades de trekking en la Región Metropolitana de Chile.
   
   El proyecto busca facilitar la organización de actividades grupales de trekking mediante una plataforma que permita a los usuarios encontrar compañeros, crear y participar en eventos, consultar información sobre rutas   y comunicarse con otros participantes.
   
   Además, la aplicación incorpora funcionalidades orientadas a la seguridad, como seguimiento de ubicación mediante GPS, registro del recorrido y un botón SOS que permite compartir la ubicación del usuario con sus         contactos de emergencia.
 
-a quién va dirigido: 
+A quién va dirigido: 
 
   La aplicación está dirigida principalmente a:
   
@@ -39,7 +40,18 @@ Qué problema resuelve:
   
   Code-Trekking busca centralizar estas funcionalidades en una sola aplicación móvil, proporcionando una experiencia colaborativa y orientada a la seguridad.
 
-- Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud) 
+Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):
+
+- Angular — Framework principal para el desarrollo de la aplicación.
+- Ionic Framework — Componentes de interfaz y desarrollo de la aplicación móvil.
+- TypeScript — Lenguaje principal del proyecto.
+- HTML5 — Estructura de las interfaces.
+- SCSS / CSS — Estilos y diseño visual.
+- Firebase Authentication — Autenticación y gestión de usuarios.
+- Cloud Firestore — Base de datos NoSQL en la nube.
+- Firebase Security Rules — Control de acceso y seguridad de los datos.
+
+  
 - Instrucciones para ejecutar el proyecto localmente 
 - Integrantes del equipo con sus roles 
 - Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.) 
