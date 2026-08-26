@@ -119,9 +119,9 @@ El proyecto se organiza en 18 sprints semanales, permitiendo dividir el desarrol
 
 Fases del proyecto:
 
-Fase 1 — Definición (S1-S4):
-Fase 2 — Desarrollo (S5-S15):
-Fase 3 — Cierre (S16-S18)
+- Fase 1 — Definición (S1-S4):
+- Fase 2 — Desarrollo (S5-S15):
+- Fase 3 — Cierre (S16-S18)
 
 ### **Arquitectura de la solución (descripción o diagrama)** 
 
@@ -134,7 +134,6 @@ La aplicación está desarrollada utilizando Angular como framework principal, I
     Angular + Ionic
     Login | Register | Home | Perfil
     Eventos | Foro | Mapa | Dashboard
-                 ▼
 - LÓGICA DE NEGOCIO:
     Services
 - CAPA DE DATOS:
