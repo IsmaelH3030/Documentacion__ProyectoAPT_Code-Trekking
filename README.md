@@ -129,6 +129,8 @@ Code-Trekking utiliza una arquitectura modular separando la presentación, lógi
 
 La aplicación está desarrollada utilizando Angular como framework principal, Ionic para la interfaz móvil, Firebase para autenticación y persistencia de datos y Capacitor para acceder a funcionalidades nativas del dispositivo.
 
+Arquitectura general:
+
 - CODE-TREKKING: Aplicación móvil
 - CAPA DE PRESENTACIÓN:
     Angular + Ionic
