@@ -67,6 +67,23 @@ Antes de ejecutar el proyecto es necesario contar con:
 
 Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
 
-- Integrantes del equipo con sus roles 
-- Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.) 
+Integrantes del equipo con sus roles 
+
+- Ismael Horta - Rol: 
+- Danilo González - Rol:
+  
+Ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
+
+Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.) 
+
+El desarrollo de Code-Trekking utiliza la metodología ágil Scrum.
+
+El proyecto se organiza en 18 sprints semanales, permitiendo dividir el desarrollo en incrementos funcionales y realizar revisiones periódicas del avance.
+
+Fases del proyecto:
+
+Fase 1 — Definición (S1-S4):
+Fase 2 — Desarrollo (S5-S15):
+Fase 3 — Cierre (S16-S18)
+
 - Arquitectura de la solución (descripción o diagrama) 
