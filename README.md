@@ -129,13 +129,14 @@ Code-Trekking utiliza una arquitectura modular separando la presentación, lógi
 
 La aplicación está desarrollada utilizando Angular como framework principal, Ionic para la interfaz móvil, Firebase para autenticación y persistencia de datos, y Capacitor para acceder a funcionalidades nativas del dispositivo.
 
-### Arquitectura general
+Arquitectura general:
 
-La aplicación **CODE-TREKKING** utiliza una arquitectura por capas, diseñada para separar la presentación, la lógica de negocio, el acceso a los datos y la integración con servicios externos y componentes del dispositivo. La **capa de presentación** está desarrollada con **Angular e Ionic** y contiene las principales vistas de la aplicación, como Login, Register, Home, Perfil, Eventos, Foro, Mapa y Dashboard. La **capa de lógica de negocio** concentra los servicios encargados de gestionar las funcionalidades de la aplicación, incluyendo autenticación, eventos, seguridad, seguimiento GPS, fotografías, SOS, sesiones, lugares, consejos y información meteorológica. También incorpora Guards e Interceptors para controlar el acceso y las comunicaciones de la aplicación.
-
-La **capa de datos** utiliza modelos desarrollados en TypeScript y se integra con **Firebase Authentication** para la gestión de usuarios, **Cloud Firestore** para el almacenamiento de información y **Local Storage** para guardar datos localmente en el dispositivo. Además, la aplicación se conecta con diferentes **servicios externos y plataformas cloud**, entre ellos Firebase, OpenRouteService, OpenWeatherMap, OpenStreetMap, OpenTopoMap, Esri, Thunderforest y Wikiloc, permitiendo incorporar funcionalidades relacionadas con mapas, rutas, información meteorológica y actividades de trekking.
-
-Finalmente, mediante **Capacitor**, la aplicación puede acceder a funcionalidades y componentes nativos del dispositivo, como el **GPS, cámara, opciones para compartir contenido, portapapeles y seguimiento de ubicación en segundo plano mediante Background Geolocation**. Esta arquitectura permite mantener una separación clara de responsabilidades y facilita el mantenimiento, escalabilidad y evolución de la aplicación.
+- CODE-TREKKING: Aplicación móvil
+- CAPA DE PRESENTACIÓN: Angular + Ionic Login | Register | Home | Perfil Eventos | Foro | Mapa | Dashboard
+- LÓGICA DE NEGOCIO: Services
+- CAPA DE DATOS: TypeScript Models, Firebase Authentication, Cloud Firestore, Local Storage
+- SERVICIOS EXTERNOS / CLOUD: Firebase Wikiloc
+- CAPACITOR / HARDWARE: GPS Background Geolocation
 
   ### Arquitectura general
 
