@@ -69,7 +69,7 @@ Antes de ejecutar el proyecto es necesario contar con:
 Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
 
 1. Clonar el repositorio
-- git clone https://github.com/DaniloGCh/code-trekking.git
+- git clone (agregar URL de github del proyecto)
 
 Ingresar al directorio del proyecto:
 
