@@ -1,4 +1,4 @@
-# Documentacion__ProyectoAPT_Code-Trekking
+# Documentacion_ProyectoAPT_Code-Trekking
 ProyectoAPT_Code-Trekking
 
 *Elemento requerido en readme* 
@@ -7,7 +7,7 @@ Nombre del proyecto: Code-Trekking - Aplicación móvil de trekking colaborativo
 
 Descripción: qué hace, a quién va dirigido, qué problema resuelve
 
-Que hace: 
+*Que hace:* 
   
   Code-Trekking es una aplicación móvil desarrollada para personas interesadas en realizar actividades de trekking en la Región Metropolitana de Chile.
   
@@ -15,7 +15,7 @@ Que hace:
   
   Además, la aplicación incorpora funcionalidades orientadas a la seguridad, como seguimiento de ubicación mediante GPS, registro del recorrido y un botón SOS que permite compartir la ubicación del usuario con sus         contactos de emergencia.
 
-A quién va dirigido: 
+*A quién va dirigido:* 
 
   La aplicación está dirigida principalmente a:
   
@@ -27,7 +27,7 @@ A quién va dirigido:
   
   Inicialmente, el proyecto se encuentra orientado a usuarios de la Región Metropolitana de Chile.
 
-Qué problema resuelve:
+*Qué problema resuelve:*
 
   Las personas interesadas en realizar trekking pueden presentar dificultades para:
   - Encontrar personas que compartan el mismo interés y disponibilidad.
@@ -41,7 +41,7 @@ Qué problema resuelve:
   
   Code-Trekking busca centralizar estas funcionalidades en una sola aplicación móvil, proporcionando una experiencia colaborativa y orientada a la seguridad.
 
-Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):
+*Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):*
 
 - Angular — Framework principal para el desarrollo de la aplicación.
 - Ionic Framework — Componentes de interfaz y desarrollo de la aplicación móvil.
@@ -52,8 +52,7 @@ Tecnologías utilizadas (lenguajes, frameworks, base de datos, cloud):
 - Cloud Firestore — Base de datos NoSQL en la nube.
 - Firebase Security Rules — Control de acceso y seguridad de los datos.
 
-  
-Instrucciones para ejecutar el proyecto localmente: 
+*Instrucciones para ejecutar el proyecto localmente:* 
 
 Antes de ejecutar el proyecto es necesario contar con:
 
@@ -68,14 +67,14 @@ Antes de ejecutar el proyecto es necesario contar con:
 
 Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
 
-Integrantes del equipo con sus roles 
+*Integrantes del equipo con sus roles* 
 
 - Ismael Horta - Rol: 
 - Danilo González - Rol:
   
 Ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
 
-Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.) 
+*Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.)* 
 
 El desarrollo de Code-Trekking utiliza la metodología ágil Scrum.
 
@@ -87,4 +86,4 @@ Fase 1 — Definición (S1-S4):
 Fase 2 — Desarrollo (S5-S15):
 Fase 3 — Cierre (S16-S18)
 
-- Arquitectura de la solución (descripción o diagrama) 
+*Arquitectura de la solución (descripción o diagrama)* 
