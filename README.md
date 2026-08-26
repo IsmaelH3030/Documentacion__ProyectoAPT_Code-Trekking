@@ -140,10 +140,10 @@ Arquitectura general:
     Services
 - CAPA DE DATOS:
     TypeScript Models, Firebase Authentication, Cloud Firestore, Local Storage
-- SERVICIOS EXTERNOS / CLOUD
+- SERVICIOS EXTERNOS / CLOUD:
     Firebase
     Wikiloc
-- CAPACITOR / HARDWARE
+- CAPACITOR / HARDWARE:
     GPS
     Background Geolocation
     
