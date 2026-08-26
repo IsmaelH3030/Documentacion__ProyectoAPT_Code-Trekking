@@ -162,7 +162,7 @@ flowchart TD
     lugar.service.ts<br/>
     consejo.service.ts<br/>
     weather-global.service.ts<br/><br/>
-    Guards + Interceptors"]
+    Guards"]
 
     D["💾 CAPA DE DATOS<br/><br/>
     TypeScript Models<br/>
