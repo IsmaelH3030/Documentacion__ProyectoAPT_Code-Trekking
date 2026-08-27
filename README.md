@@ -71,6 +71,7 @@ cd code-trekking
 
 2. Instalar las dependencias
 Ejecutar en la terminal:
+npm i -g @angular/cli @ionic/cli
 npm install
 
 3. Configurar las variables de entorno (.env)
@@ -84,11 +85,10 @@ Dado que las credenciales no se suben al repositorio por seguridad, deberás cre
 
 Para iniciar el servidor de desarrollo local:
 - Ejecutar en la terminal:  npm install dotenv
-- luego ejecutar:  npm run build
-- y para finalizar:   ionic serve (O en su defecto: npm start / ng serve)
+- luego ejecutar: npm run build
+- y para finalizar: ionic serve (O en su defecto: npm start / ng serve)
 
-Una vez finalizado el proceso de compilación, abre tu navegador e ingresa al proyecto .
-
+Una vez finalizado el proceso de compilación, abre tu navegador e ingresa al proyecto.
 
 ### **Integrantes del equipo con sus roles** 
 
