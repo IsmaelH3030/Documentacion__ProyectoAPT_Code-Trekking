@@ -56,52 +56,38 @@ Code-Trekking - Aplicación móvil de trekking colaborativo y seguro.
 ### **Instrucciones para ejecutar el proyecto localmente:** 
 
 Antes de ejecutar el proyecto es necesario contar con:
-
-- Node.js instalado.
+- Node.js (versión recomendada compatible con Angular v20).
 - npm instalado.
-- Angular CLI.
-- Ionic CLI.
+- Angular CLI e Ionic CLI instalados globalmente (npm i -g @angular/cli @ionic/cli).
+- Un clon o copia del repositorio.
 - GitHub.
-- Actions de Github, si se desea ejecutar la aplicación como aplicación Android (APK).
-- Una cuenta/proyecto de Firebase configurado.
+- Ingresar a actions de Github, si se desea descargar la aplicación como APK del último comit del main.
 - Las credenciales correspondientes a los servicios externos utilizados por la aplicación.
 
-Se recomienda utilizar una versión de Node.js compatible con la versión de Angular utilizada por el proyecto.
+1. Clonar e ingresar al repositorio
 
-1. Clonar el repositorio
-- git clone (agregar URL de github del proyecto)
-
-Ingresar al directorio del proyecto:
-
-- cd Trekking-Link
+git clone https://github.com/DaniloGCh/code-trekking.git
+cd code-trekking
 
 2. Instalar las dependencias
+Ejecutar en la terminal:
+npm install
 
-Ejecutar:
+3. Configurar las variables de entorno (.env)
 
-- npm install
-
-3. Configurar las variables de entorno (modifcar esta parte)
-
-Antes de ejecutar la aplicación se deben configurar las credenciales necesarias para los servicios externos.
+Dado que las credenciales no se suben al repositorio por seguridad, deberás crear manualmente el archivo de configuración:
+- Solicita al administrador o dueño del proyecto el contenido del archivo .env (se te enviará por mensaje privado).
+- En la raíz del proyecto (al mismo nivel que el archivo package.json), crea un nuevo archivo llamado exactamente .env.
+- Pega todo el contenido proporcionado en dicho archivo y guárdalo.
 
 4. Ejecutar la aplicación en el navegador
 
-Para iniciar el servidor de desarrollo:
+Para iniciar el servidor de desarrollo local:
+- Ejecutar en la terminal:  npm install dotenv
+- luego ejecutar:  npm run build
+- y para finalizar:   ionic serve (O en su defecto: npm start / ng serve)
 
-- ionic serve
-
-También puede utilizarse:
-
-- ng serve
-
-Luego acceder desde el navegador a:
-
-- http://localhost:8100
-
-Generar APK para Android:
-
-- La aplicación Android se genera automáticamente mediante **GitHub Actions**, por lo que no es necesario abrir el proyecto en Android Studio para generar la APK.
+Una vez finalizado el proceso de compilación, abre tu navegador e ingresa al proyecto .
 
 
 ### **Integrantes del equipo con sus roles** 
