@@ -56,7 +56,7 @@ Code-Trekking - Aplicación móvil de trekking colaborativo y seguro.
 ### **Instrucciones para ejecutar el proyecto localmente:** 
 
 Antes de ejecutar el proyecto es necesario contar con:
-- Node.js (versión recomendada compatible con Angular v20).
+- Node.js.
 - npm instalado.
 - Angular CLI e Ionic CLI instalados globalmente (npm i -g @angular/cli @ionic/cli).
 - Un clon o copia del repositorio.
