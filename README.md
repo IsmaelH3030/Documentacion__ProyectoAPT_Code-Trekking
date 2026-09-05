@@ -93,10 +93,16 @@ Una vez finalizado el proceso de compilación, abre tu navegador e ingresa al pr
 
 ### **Integrantes del equipo con sus roles** 
 
-- Ismael Horta - Rol: (agregar roles)
-- Danilo González - Rol: (agregar roles)
+- Product Owner: Danilo González 
+Define y prioriza el Product Backlog (funcionalidades del app), válida que cada incremento cumpla con la propuesta de valor de Code-Trekking, y es el punto de contacto principal con el docente/cliente simulado para retroalimentación.
 
-Ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
+- Scrum Master: Ismael Horta 
+Facilita las ceremonias Scrum (planificación semanal, revisión y retrospectiva), da seguimiento a la bitácora y el repositorio Git, identifica y ayuda a resolver impedimentos técnicos, y vela por que el equipo respete la duración de los sprints semanales
+
+Equipo de Desarrollo: Ismael Horta / Danilo González:
+Ambos integrantes desarrollan en conjunto el frontend (Ionic/Angular), la integración con Firebase, los módulos de geolocalización/mapas y las funcionalidades de seguridad (SOS, sanitización, rate limiting), además de ejecutar las pruebas unitarias y el análisis estático de código. 
+
+Cabe recalcar que ambos integrantes participan en las actividades de análisis, diseño, desarrollo, pruebas, documentación y toma de decisiones del proyecto.
 
 ### **Metodología de trabajo del equipo (Scrum, Kanban, DevOps, etc.)** 
 
