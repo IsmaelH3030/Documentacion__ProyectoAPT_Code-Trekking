@@ -85,6 +85,7 @@ Dado que las credenciales no se suben al repositorio por seguridad, deberás cre
 
 Para iniciar el servidor de desarrollo local:
 - Ejecutar en la terminal:  npm install dotenv
+- Ejecutar en la terminal: npm install @ionic/pwa-elements 
 - luego ejecutar: npm run build
 - y para finalizar: ionic serve (O en su defecto: npm start / ng serve)
 
