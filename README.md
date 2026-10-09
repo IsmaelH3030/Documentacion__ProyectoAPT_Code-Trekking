@@ -124,66 +124,14 @@ La aplicación está desarrollada utilizando Angular como framework principal, I
 
 Arquitectura general:
 
-- CODE-TREKKING: Aplicación móvil
-- CAPA DE PRESENTACIÓN: Angular + Ionic Login | Register | Home | Perfil Eventos | Foro | Mapa | Dashboard
-- LÓGICA DE NEGOCIO: Services
-- CAPA DE DATOS: TypeScript Models, Firebase Authentication, Cloud Firestore, Local Storage
-- SERVICIOS EXTERNOS / CLOUD: Firebase Wikiloc
-- CAPACITOR / HARDWARE: GPS Background Geolocation
+| Capa               | Carpeta                                                                                             | Responsabilidad                                                                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Presentación       | `src/app/pages`, `src/app/components`, `src/app/tabs`                                               | Contiene las páginas de Ionic/Angular, los componentes reutilizables y la navegación por pestañas. Gestiona la interfaz y la interacción con el usuario.                             |
+| Control de acceso  | `src/app/guards`                                                                                    | Controla el acceso a las rutas según el estado de la sesión y los permisos del usuario.                                                                                              |
+| Lógica de negocio  | `src/app/core/services`                                                                             | Coordina las funcionalidades de la aplicación, como la seguridad, el seguimiento de rutas y las alertas SOS. También gestiona la comunicación con Firebase y los servicios externos. |
+| Interceptores HTTP | `src/app/core/interceptors`                                                                         | Permite aplicar controles comunes a las solicitudes HTTP dirigidas a servicios externos, cuando corresponde.                                                                         |
+| Modelos de datos   | `src/app/core/models`                                                                               | Define las interfaces y estructuras TypeScript utilizadas para organizar y representar los datos de la aplicación.                                                                   |
+| Capa de datos      | Firebase Authentication, Cloud Firestore y `localStorage`                                           | Gestiona la autenticación, el almacenamiento y la consulta de información en Firestore, además del almacenamiento local en el dispositivo o navegador.                               |
+| Seguridad de datos | Firestore Security Rules                                                                            | Define las reglas que controlan las operaciones de lectura y escritura permitidas sobre los datos almacenados en Firestore.                                                          |
+| Servicios externos | APIs de OpenWeatherMap, OpenRouteService, OpenStreetMap, OpenTopoMap, Thunderforest, Wikiloc y OSRM | Proporciona funcionalidades de clima, mapas, visualización del terreno y cálculo de rutas. La comunicación utiliza HTTPS/TLS cuando los servicios lo admiten.                        |
 
-  ### Arquitectura general
-
-```mermaid
-flowchart TD
-
-    A["📱 CODE-TREKKING<br/>Aplicación móvil"]
-
-    B["🖥️ CAPA DE PRESENTACIÓN<br/><br/>
-    Angular + Ionic<br/>
-    Login | Register | Home | Perfil<br/>
-    Eventos | Foro | Mapa | Dashboard"]
-
-    C["⚙️ LÓGICA DE NEGOCIO<br/><br/>
-    Services<br/>
-    auth.service.ts<br/>
-    evento.service.ts<br/>
-    security.service.ts<br/>
-    tracking.service.ts<br/>
-    foto.service.ts<br/>
-    sos.service.ts<br/>
-    session.service.ts<br/>
-    lugar.service.ts<br/>
-    consejo.service.ts<br/>
-    weather-global.service.ts<br/><br/>
-    Guards"]
-
-    D["💾 CAPA DE DATOS<br/><br/>
-    TypeScript Models<br/>
-    Firebase Authentication<br/>
-    Cloud Firestore<br/>
-    Local Storage"]
-
-    E["☁️ SERVICIOS EXTERNOS / CLOUD<br/><br/>
-    Firebase<br/>
-    OpenRouteService<br/>
-    OpenWeatherMap<br/>
-    OpenStreetMap<br/>
-    OpenTopoMap<br/>
-    Esri<br/>
-    Thunderforest<br/>
-    Wikiloc"]
-
-    F["📱 CAPACITOR / HARDWARE<br/><br/>
-    GPS<br/>
-    Cámara<br/>
-    Compartir<br/>
-    Portapapeles<br/>
-    Background Geolocation"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    
-  
