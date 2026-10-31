@@ -53,6 +53,26 @@ Code-Trekking - Aplicación móvil de trekking colaborativo y seguro.
 - Cloud Firestore — Base de datos NoSQL en la nube.
 - Firebase Security Rules — Control de acceso y seguridad de los datos.
 
+### *** 4.2 Variables de Entorno ***
+
+El proyecto centraliza sus credenciales y claves de servicios externos en un archivo .env, excluido del repositorio mediante .gitignore. Al ejecutar npm run config (invocado automáticamente por los scripts start, build y watch), el script scripts/set-env.ts genera src/environments/environment.ts y environment.prod.ts a partir de esas variables. En GitHub Actions, el mismo contenido se entrega mediante el secreto del repositorio ENV_FILE.
+
+| **Variable** | **Descripción** |
+|---|---|
+| `FIREBASE_API_KEY` | API Key del proyecto Firebase. |
+| `FIREBASE_AUTH_DOMAIN` | Dominio de autenticación de Firebase Authentication. |
+| `FIREBASE_PROJECT_ID` | Identificador del proyecto de Firebase. |
+| `FIREBASE_STORAGE_BUCKET` | Bucket de Firebase Storage. Forma parte de la configuración estándar de Firebase; actualmente no se utiliza, ya que las fotos se guardan en Firestore. |
+| `FIREBASE_MESSAGING_SENDER_ID` | Identificador del remitente de Firebase Cloud Messaging. |
+| `FIREBASE_APP_ID` | Identificador de la app dentro del proyecto Firebase. |
+| `WEATHER_API_KEY` | Clave del servicio meteorológico externo (información climática). |
+| `ORS_KEY` | Clave de OpenRouteService, usada para el trazado de rutas en el mapa. |
+| `THUNDERFOREST_KEY` | Clave de Thunderforest, usada para las capas de mapa (terreno/topográfico). |
+| `PAYPAL_CLIENT_ID` | Client ID de la cuenta de comercio de PayPal, usado por el SDK de pagos. |
+| `PAYPAL_CURRENCY` | Moneda del cobro en PayPal (por defecto USD). |
+| `PAYPAL_CHECKOUT_URL` | URL del checkout-web publicado en Firebase Hosting, usado en el pago nativo. |
+| `APP_URL_SCHEME` | Esquema de deep link de la app (por defecto `codetrekking`), usado para el retorno desde PayPal en Android/iOS. |
+
 ### **Instrucciones para ejecutar el proyecto localmente:** 
 
 Antes de ejecutar el proyecto es necesario contar con:
