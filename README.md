@@ -81,7 +81,7 @@ Antes de ejecutar el proyecto es necesario contar con:
 - Angular CLI e Ionic CLI instalados globalmente (npm i -g @angular/cli @ionic/cli).
 - Un clon o copia del repositorio.
 - GitHub.
-- Ingresar a actions de Github, si se desea descargar la aplicación como APK del último comit del main.
+- Ingresar a actions de Github, si se desea descargar la aplicación como APK del último commit del main.
 - Las credenciales correspondientes a los servicios externos utilizados por la aplicación.
 
 1. Clonar e ingresar al repositorio
