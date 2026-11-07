@@ -1,5 +1,9 @@
 # Documentacion_ProyectoAPT_Code-Trekking
 
+## ProyectoAPT_Code-Trekking
+
+### Elemento requerido en readme
+
 ## Nombre del proyecto:
 
 Code-Trekking - Aplicación móvil de trekking colaborativo y seguro.
@@ -130,7 +134,12 @@ Para iniciar el servidor de desarrollo local:
 
 ### Ejecutar las pruebas unitarias (opcional)
 
+Las pruebas unitarias no están en la rama `main`: se encuentran en la rama `pruebas_jasmine`, que no se une a `main`. Para ejecutarlas, primero hay que cambiarse a esa rama:
+
 ```bash
+git fetch origin
+git checkout pruebas_jasmine
+npm install
 npm test
 ```
 
@@ -194,6 +203,9 @@ flowchart LR
 ```
 
 ## Limitaciones conocidas
+
+- No hay backend propio: el pago con PayPal se procesa en el cliente y no se valida el monto en un servidor.
+- Las reglas de seguridad de Firestore se administran desde la consola de Firebase y no están versionadas en el repositorio.
 
 - No hay backend propio: el pago con PayPal se procesa en el cliente y no se valida el monto en un servidor.
 - Las reglas de seguridad de Firestore se administran desde la consola de Firebase y no están versionadas en el repositorio.
