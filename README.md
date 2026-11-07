@@ -1,9 +1,5 @@
 # Documentacion_ProyectoAPT_Code-Trekking
 
-## ProyectoAPT_Code-Trekking
-
-### Elemento requerido en readme
-
 ## Nombre del proyecto:
 
 Code-Trekking - Aplicación móvil de trekking colaborativo y seguro.
