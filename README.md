@@ -206,6 +206,3 @@ flowchart LR
 
 - No hay backend propio: el pago con PayPal se procesa en el cliente y no se valida el monto en un servidor.
 - Las reglas de seguridad de Firestore se administran desde la consola de Firebase y no están versionadas en el repositorio.
-
-- No hay backend propio: el pago con PayPal se procesa en el cliente y no se valida el monto en un servidor.
-- Las reglas de seguridad de Firestore se administran desde la consola de Firebase y no están versionadas en el repositorio.
